@@ -2,7 +2,7 @@
 ## osm0sis @ xda-developers
 
 ### AnyKernel setup
-# begin properties
+# global properties
 properties() { '
 kernel.string=Hyper kernel for realme X2 Pro
 do.devicecheck=1
@@ -17,6 +17,7 @@ device.name4=
 device.name5=
 supported.versions=
 supported.patchlevels=
+supported.vendorpatchlevels=
 '; } # end properties
 
 ## boot shell variables
